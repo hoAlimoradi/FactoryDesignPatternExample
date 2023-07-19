@@ -16,6 +16,7 @@
 		C6C484522A6870CE0096462B /* FactoryDesignPatternExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C484512A6870CE0096462B /* FactoryDesignPatternExampleTests.swift */; };
 		C6C4845C2A6870CE0096462B /* FactoryDesignPatternExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C4845B2A6870CE0096462B /* FactoryDesignPatternExampleUITests.swift */; };
 		C6C4845E2A6870CE0096462B /* FactoryDesignPatternExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C4845D2A6870CE0096462B /* FactoryDesignPatternExampleUITestsLaunchTests.swift */; };
+		C6C4846B2A6872250096462B /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C4846A2A6872250096462B /* Serializable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C6C484572A6870CE0096462B /* FactoryDesignPatternExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryDesignPatternExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C4845B2A6870CE0096462B /* FactoryDesignPatternExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryDesignPatternExampleUITests.swift; sourceTree = "<group>"; };
 		C6C4845D2A6870CE0096462B /* FactoryDesignPatternExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryDesignPatternExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6C4846A2A6872250096462B /* Serializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				C6C484432A6870CD0096462B /* Assets.xcassets */,
 				C6C484452A6870CD0096462B /* LaunchScreen.storyboard */,
 				C6C484482A6870CD0096462B /* Info.plist */,
+				C6C4846A2A6872250096462B /* Serializable.swift */,
 			);
 			path = FactoryDesignPatternExample;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6C4846B2A6872250096462B /* Serializable.swift in Sources */,
 				C6C4843F2A6870CB0096462B /* ViewController.swift in Sources */,
 				C6C4843B2A6870CB0096462B /* AppDelegate.swift in Sources */,
 				C6C4843D2A6870CB0096462B /* SceneDelegate.swift in Sources */,
